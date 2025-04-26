@@ -31,6 +31,7 @@ fun App() {
             AnimatedVisibility(showImage) {
                 Image(
                     painterResource("compose-multiplatform.xml"),
+                    //my change in dev
                     null
                 )
             }
